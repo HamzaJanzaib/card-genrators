@@ -13,12 +13,13 @@ body {
     color: black;
     background-color:#F1F1F1;
     overflow-x: hidden;
+    
 }
 
 .display-contant {
     display: flex;
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     overflow: hidden;
     padding: 5rem;
 }

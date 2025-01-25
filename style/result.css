@@ -1,0 +1,83 @@
+#result-card {
+    height: 40vh;
+    width: 30vw;
+    background-color: white;
+    margin: 25vh auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow-y: hidden;
+}
+
+.result-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    background-color: rgba(128, 128, 128, 0.274);
+}
+
+.result-top h1 {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.result-top h1::after {
+    content: ":";
+    color: red;
+}
+
+.result-top button {
+    padding: 10px 30px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.result-top button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+@media only screen and (max-width:480px) {
+    #result-card {
+        width: 80vw;
+        height: 30vh;
+    }
+
+    .result-top h1 {
+        font-size: 1.2rem;
+    }
+
+    .result-top button {
+        font-size: 1rem;
+        padding: 5px 20px;
+    }
+}
+
+.card-main {
+    height: 100%;
+    width: 100%;
+    background-color: wheat;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+}
+.left{
+    width: 40%;
+    height: 100%;
+    background-color: gray;
+}
+.right{
+    width: 60%;
+    height: 100%;
+    background-color: gold;
+    padding: 5px;
+}
+.card-inner{
+
+}
